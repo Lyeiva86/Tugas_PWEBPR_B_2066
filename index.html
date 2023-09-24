@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Riki</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="komponen/globe.svg" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="komponen/logo.png" alt="my-avatar" />
+      </div>
+
+      <div class="brand">
+        <div class="satunama">Web</div>
+        <div class="duanama">Riki</div>
+      </div>
+
+      <div id="menu-icon" class="menu-icon">
+        <i class="ph-fill ph-list"></i>
+      </div>
+
+      <ul id="menu-list" class="hidden">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#MyGallery">Gallery</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Home Saya</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisi enim iusto, modi omnis
+          necessitatibus incidunt obcaecati dolor itaque facil
+        </p>
+        <a href="#" class="cta">Inspirasi</a>
+      </main>
+    </section>
+
+    <!-- about section -->
+
+    <section id="MyGallery" class="about">
+      <h2><span>My</span> Gallery</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="komponen/bg2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Kereta Api</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+            recusandae suscipit eum nisi, nobis necessitatibus!
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+            quod officiis earum, veniam autem itaque nihil minima eaque
+            perferendis atque.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact ME -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span>Saya</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eaque!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.3763736443434!2d113.70102397320194!3d-8.164782581810577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd69437d846068b%3A0x38f6dcb172500e70!2sJember%20railway%20station!5e0!3m2!1sen!2sid!4v1695565899173!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="social">
+        <a href="https://instagram.com/lyeiva_98?igshid=NzZlODBkYWE4Ng=="
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="wa.me/+628333333333"><i data-feather="phone"></i></a>
+        <a href="https://github.com/Lyeiva86"><i data-feather="github"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#MyGallery">Gallery</a>
+        <a href="#contact">Kontak Saya</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By Riki Kurniawan | &copy;2023</p>
+      </div>
+    </footer>
+
+    <!-- ICON -->
+    <script src="/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
